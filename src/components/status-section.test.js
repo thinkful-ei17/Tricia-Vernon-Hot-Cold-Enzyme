@@ -10,6 +10,7 @@ describe('<StatusSection/>', () => {
 
     it('Should show given prop values when rendered', () => {
         const wrapper = mount(<StatusSection guesses={[1,2,3]} auralStatus='Won!'/ >)
+        console.log(wrapper.debug());
         // console.log('Here!');
         // console.log(wrapper.props().auralStatus);
         //console.log(wrapper.props('auralStatus'));

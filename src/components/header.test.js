@@ -1,10 +1,11 @@
 import React from 'react';
-import header from './header';
-import { shallow } from 'enzyme';
+import Header from './header';
+import TopNav from './top-nav';
+import { shallow, mount } from 'enzyme';
 import './setupTests';
 
 describe('<header/>', () => {
     it('Should smoke test the header component', () => {
-        shallow( <header / > )
+        shallow( <Header / > )
     })
 })
