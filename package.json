@@ -6,6 +6,8 @@
   "devDependencies": {
     "enzyme": "^3.3.0",
     "enzyme-adapter-react-16": "^1.1.1",
+    "eslint": "^4.16.0",
+    "eslint-plugin-react": "^7.6.0",
     "react-scripts": "1.0.17",
     "react-test-render": "^1.1.1",
     "react-test-renderer": "^16.1.1"

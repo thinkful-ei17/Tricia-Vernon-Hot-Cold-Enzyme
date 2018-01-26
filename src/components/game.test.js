@@ -1,5 +1,6 @@
 import React from 'react';
 import Game from './game';
+<<<<<<< HEAD
 import { shallow, mount } from 'enzyme';
 import './setupTests';
 
@@ -35,3 +36,13 @@ describe('<Game/>', () => {
   });
 
 })
+=======
+import { shallow } from 'enzyme';
+import './setupTests';
+
+describe('<Game/>', () => {
+    it('Should smoke test the Game component', () => {
+        shallow( <Game / > )
+    })
+})
+>>>>>>> 1c39c71b2243ef16f3c0695dae1b3844f833c342
