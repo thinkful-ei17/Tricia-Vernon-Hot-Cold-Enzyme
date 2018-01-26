@@ -14,7 +14,5 @@ describe('<GuessCount/>', () => {
                         />);
                         expect(wrapper.contains( < h2 > { count } < /h2>));
                         });
-                    }) it('Should Smoke test the guess-count component', () => {
-                    shallow( < GuessCount / > )
-                })
+
             })
