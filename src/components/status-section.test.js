@@ -12,7 +12,9 @@ describe('<StatusSection/>', () => {
         const wrapper = mount(<StatusSection guesses={[1,2,3]} auralStatus='Won!'/ >)
         // console.log('Here!');
         // console.log(wrapper.props().auralStatus);
-        expect(wrapper.props().auralStatus).toEqual('Won!');
+        //console.log(wrapper.props('auralStatus'));
+        //console.log(wrapper.props());
+        expect(wrapper.prop('auralStatus')).toEqual('Won!');
         expect(wrapper.prop('guesses')).toEqual([1,2,3]);
     })
 })
