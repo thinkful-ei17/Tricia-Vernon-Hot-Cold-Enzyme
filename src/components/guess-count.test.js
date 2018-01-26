@@ -5,6 +5,6 @@ import './setupTests';
 
 describe('<GuessCount/>', () => {
     it('Should Smoke test the guess-count component', () => {
-        shallow( < GuessCount / > )
+        shallow( < GuessCount / > ) 
     })
 })

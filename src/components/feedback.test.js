@@ -5,6 +5,6 @@ import './setupTests';
 
 describe('<Feedback/>', () => {
     it('Should smoke test the Feedback component', () => {
-        shallow( < Feedback / > )
+        shallow( < Feedback / > ) 
     })
 })
